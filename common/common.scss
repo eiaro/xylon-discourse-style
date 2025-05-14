@@ -1,0 +1,46 @@
+html {
+  font-family: system-ui, sans-serif;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+
+.d-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-pills > li > a {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.btn {
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+a {
+  color: #0066cc;
+}
+a:hover {
+  color: #004999;
+}
+
+.topic-list th,
+.topic-list td {
+  border-top: 1px solid #eee;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.badge-wrapper.bullet .badge-category {
+  border-radius: 4px;
+  padding: 0 6px;
+}
+
+.boxed .topic-list {
+  box-shadow: none;
+}

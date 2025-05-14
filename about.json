@@ -1,0 +1,13 @@
+{
+  "name": "xylon-discourse-style",
+  "about_url": "https://xylon.no",
+  "license_url": "https://choosealicense.com/licenses/mit/",
+  "version": "0.1",
+  "authors": ["eiaro"],
+  "components": [],
+  "color_schemes": {},
+  "assets": {},
+  "modifiers": {
+    "css": ["common/common.scss"]
+  }
+}
