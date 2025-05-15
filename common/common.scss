@@ -1,46 +1,74 @@
-html {
+/* === Xylon 100% Fargepalett === */
+
+html, body {
+  background-color: #f9f9f9 !important;
+  color: #1a1a1a !important;
   font-family: system-ui, sans-serif;
-  background-color: #f9f9f9;
-  color: #1a1a1a;
 }
 
+/* Header */
 .d-header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+  color: #1a1a1a !important;
 }
 
-.nav-pills > li > a {
-  color: #1a1a1a;
-  font-weight: 500;
+/* Lenker */
+a, .link, .fancy-title a, .topic-title a {
+  color: #e28a00 !important;
+}
+a:hover, .link:hover {
+  color: #b66d00 !important;
 }
 
-.btn {
-  border-radius: 4px;
-  font-weight: 500;
+/* Knappfarger */
+.btn, .btn-primary {
+  background-color: #e28a00 !important;
+  border-color: #e28a00 !important;
+  color: #fff !important;
+}
+.btn:hover, .btn-primary:hover {
+  background-color: #b66d00 !important;
+  border-color: #b66d00 !important;
 }
 
-a {
-  color: #0066cc;
-}
-a:hover {
-  color: #004999;
-}
-
-.topic-list th,
-.topic-list td {
-  border-top: 1px solid #eee;
+/* Emneliste & tabeller */
+.topic-list th, .topic-list td, .table-heading {
+  border-top: 1px solid #e5e5e5 !important;
+  background-color: #f9f9f9 !important;
+  color: #1a1a1a !important;
 }
 
-body {
-  line-height: 1.6;
-  font-size: 15px;
+/* Sidebar */
+.sidebar-wrapper {
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
+}
+.sidebar-section-link {
+  color: #1a1a1a !important;
+}
+.sidebar-section-link:hover {
+  background-color: #f0f0f0 !important;
 }
 
-.badge-wrapper.bullet .badge-category {
+/* Kategori-badges */
+.badge-wrapper .badge-category {
+  background: none !important;
+  border: 1px solid #e5e5e5 !important;
+  color: #1a1a1a !important;
   border-radius: 4px;
   padding: 0 6px;
 }
 
-.boxed .topic-list {
-  box-shadow: none;
+/* Aktive elementer / markeringer */
+.navigation-topics .navigation-controls .nav-pills > li > a.active,
+.nav-pills > li > a.active {
+  background-color: #f0f0f0 !important;
+  color: #e28a00 !important;
+}
+
+/* Footer / lavere komponenter */
+.footer, .d-footer {
+  background-color: #f9f9f9 !important;
+  color: #1a1a1a !important;
 }
